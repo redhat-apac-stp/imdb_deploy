@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: predict-imdb 
-  namespace: default
+  namespace: ai-project
   labels:
     app: imdb-server
 spec:
@@ -19,7 +19,7 @@ spec:
       containers:
       - name: app
         image: image-registry.openshift-image-registry.svc:5000/openshift/app:latest
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         command: ["/bin/sh", "-c"]
         args:
          - echo "start";
