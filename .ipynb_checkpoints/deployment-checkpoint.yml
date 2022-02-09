@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: tensorflow/tensorflow:latest-devel-py3
+        image: image-registry.openshift-image-registry.svc:5000/openshift/app:latest
         imagePullPolicy: IfNotPresent
         command: ["/bin/sh", "-c"]
         args:
