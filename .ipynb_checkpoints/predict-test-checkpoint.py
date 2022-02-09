@@ -36,8 +36,6 @@ def predict(sentence):
     pred = np.array([encoded])
     pred = vectorize_sequences(pred)
     a = model.predict(pred)
-    print(a)
-    print(np.round(a))
     return str(a[0][0])
 
 def vectorize_sequences(sequences, dimension=10000):

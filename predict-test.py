@@ -1,0 +1,3 @@
+from predict import predict
+
+predict("i also having endured hundreds of children's movies in the past consider this to be one of the worst i have ever seen br br 1 i ? in this day and age having to explain to my children that russia is not the bad guys also that mocking russian names like ? is inappropriate br br 2 the grandfather ? birthday party scene contained a quasi sexist joke in which he implied that males drink beer and women talk on the phone two other flies also needlessly use the word crap twice br br 3 the whole movie largely ? of 1950's stereotypes and propaganda that i thought we as a nation were proud to have ? above br br in all it's just crude badly animated even more badly written and not worth wasting the time to view")
